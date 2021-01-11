@@ -20,11 +20,11 @@ class RecipeManager{
         $this->storage->get($id);
     }
 
-    public function updateRecip(Recipe $recipe){
+    public function updateRecipe(Recipe $recipe){
         $this->storage->update($recipe);
     }
 
     public function getRecipes(){
-        $this->storage->all();
+        return $this->storage->all();
     }
 }
