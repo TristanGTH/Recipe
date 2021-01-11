@@ -1,0 +1,9 @@
+{
+    "name": "tristan/recipes",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
+
